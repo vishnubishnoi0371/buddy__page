@@ -1,0 +1,148 @@
+:root{
+    /* color */
+    --bg-black: black;
+    --purple:#9003E5;
+    --dream-clr:#8A3E74;
+    --black: #000;
+    --white: #FFFFFF;
+    --blue: #0389FF;
+    --blue-flip: #031227;
+    --bg-color: #000611;
+    --gray: #98A1A9;
+    --light-color: #98A1A9;
+    --pink:((90deg, #9104E5 0%, #F93B96 100%);)
+    
+   
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-15: 15px;
+    --fs-25: 25px;
+    --fs-36: 36px;
+    --fs-44: 44px;
+    --fs-48: 48px;
+    --fs-20: 16px;
+    --fs-70: 50px;
+    --fs-50: 35px;
+    --fs-30: 18px;
+  
+}
+
+/* color */
+.blue{
+color: var(--blue);
+}
+.blue-flip{
+background-color: var(--blue-flip);
+}
+.bg-color{
+    background-color: var(--bg-color);
+}
+.bg-color-2{
+    background-color: var(--bg-color-2);
+}
+.gray{
+    color: var(--gray);
+}
+.light-color{
+    color: var(--light-color);
+}
+.white{
+    color: var(--white);
+}
+.pink{
+    color: var(--pink);
+}
+.black{
+    color: var(--black);
+}
+.bg-black{
+    background-color: var(--bg-black);
+}
+.purple{
+    color: var(--purple);
+}
+.dream-clr{
+    color: var(--dream-clr);
+}
+/* font-size */
+.fs-14{
+    font-size: var(--fs-14);
+}
+.fs-70{
+    font-size: var(--fs-70);
+}
+.fs-48{
+    font-size: var(--fs-48);
+}
+.fs-44{
+    font-size: var(--fs-44);
+}
+.fs-50{
+    font-size: var(--fs-50);
+}
+.fs-30{
+    font-size: var(--fs-30);
+}
+.fs-18{
+    font-size: var(--fs-18);
+}
+.fs-15{
+    font-size: var(--fs-15);
+}
+.fs-16{
+    font-size: var(--fs-16);
+}
+.fs-25{
+    font-size: var(--fs-25);
+}
+.fs-36{
+    font-size: var(--fs-36);
+}
+.fs-20{
+    font-size: var(--fs-20);
+}
+
+@media (min-width:576px) {
+
+    :root{
+ 
+   
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-15: 15px;
+    --fs-25: 25px;
+    --fs-36: 36px;
+    --fs-44: 44px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+    --fs-70: 70px;
+    --fs-50: 44px;
+    --fs-30: 30px;
+  
+}
+}
+@media (min-width:1200px) {
+
+    :root{
+ 
+   
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-15: 15px;
+    --fs-25: 25px;
+    --fs-36: 36px;
+    --fs-44: 44px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+    --fs-70: 70px;
+    --fs-50: 50px;
+    --fs-30: 30px;
+  
+}
+}
