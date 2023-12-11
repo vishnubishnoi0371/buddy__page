@@ -51,9 +51,6 @@ background-color: var(--blue-flip);
 .white{
     color: var(--white);
 }
-.pink{
-    color: var(--pink);
-}
 .black{
     color: var(--black);
 }
@@ -65,6 +62,9 @@ background-color: var(--blue-flip);
 }
 .dream-clr{
     color: var(--dream-clr);
+}
+.pink{
+ color: var(--pink);
 }
 /* font-size */
 .fs-14{
