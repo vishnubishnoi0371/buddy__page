@@ -1,14 +1,15 @@
-import React from "react";
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 const Footer = () => {
   return (
     <div id="Joinus" className="bg-color ft-imgs mt_2 overflow-hidden ">
-      <div className="container">
+      <Container>
         <p className="fs-50 fw-medium ff-pop white  text-center pt-5">
           JOIN US
         </p>
-        <div className="row pt-5 pb-sm-5 d-flex align-items-center justify-content-center">
-          <div className="col-lg-8 col-md-6 col-sm-12 col-12">
+        <Row className=" pt-5 pb-sm-5 d-flex align-items-center justify-content-center">
+          <Col lg={8} md={6} sm={12}>
             <p className="fs-30 fw-medium ff-pop white ft-logo">LOGO</p>
             <p className="fs-16 fw-normal ff-pop gray ft-logo-2  py-3">
               Aenean arcu sed rhoncus sapien euismod cursus morbi lacus,
@@ -25,17 +26,17 @@ const Footer = () => {
                 Email@gmail.com
               </a>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div className="row pt-3">
-              <div className="col-6">
+          </Col>
+          <Col lg={4} md={6} sm={12}>
+            <Row className=" pt-3">
+              <Col xsm={6}>
                 <ul className="ps-0">
                   <li className=" fw-medium white ff-pop text-decoration-none">
                     Resources
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="http://"
                       className=" fw-normal white ff-pop text-decoration-none ftr_hover"
                     >
                       Roadmap
@@ -43,7 +44,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="http://"
                       className=" fw-normal white ff-pop text-decoration-none ftr_hover"
                     >
                       FAQS
@@ -51,15 +52,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="http://"
                       className="fs-14 fw-normal white ff-pop text-decoration-none ftr_hover"
                     >
                       Mint your Bully
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div className="col-6">
+              </Col>
+              <Col xsm={6}>
                 <p className="fs-16 fw-medium white ff-pop  text-decoration-none">
                   Community
                 </p>
@@ -119,11 +120,11 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

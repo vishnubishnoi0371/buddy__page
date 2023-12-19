@@ -254,6 +254,7 @@ nav ul li a:hover::before {
 
 .accordion {
   width: 100%;
+  max-width: 830px;
   position: relative;
   left: 50%;
   border-radius: 30px !important;

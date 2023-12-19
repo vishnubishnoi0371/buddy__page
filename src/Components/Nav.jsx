@@ -1,4 +1,4 @@
-import React from "react";
+import Container from 'react-bootstrap/Container';
 
 const nav = () => {
   function Faq() {
@@ -13,7 +13,7 @@ const nav = () => {
     <div className="min-vh-100 overflow-hidden head-bg-img">
       <div className=" d-flex justify-content-center min-vh-100 flex-column">
         <nav className="bg-clr ">
-          <div className="container ">
+          <Container>
             <div className=" d-flex align-items-center justify-content-between py-3">
               <p className="fs-20 fw-semibold ff-pop white cur-pointer mb-0">
                 Logo
@@ -76,7 +76,7 @@ const nav = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </Container>
         </nav>
 
         <div className="d-flex flex-grow-1 flex-column justify-content-center align-content-center">

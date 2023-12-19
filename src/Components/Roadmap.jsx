@@ -1,10 +1,10 @@
-import React from "react";
+import Container from 'react-bootstrap/Container';
 
 const Roadmap = () => {
   return (
     <div>
       <div id="Roadmap" className="bg-color position-relative mt_2">
-        <div className="container ">
+        <Container>
           <p className="fs-50 fw-semibold ff-pop white road text-center py-sm-5 py-3 mb-0">
             Roadmap
           </p>
@@ -53,7 +53,7 @@ const Roadmap = () => {
               for our community. Buddybullies stronger together !!
             </p>
           </div>
-        </div>
+        </Container>
         <span className="road-ep-1 position-absolute"></span>
       </div>
     </div>

@@ -1,4 +1,6 @@
-import React from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import gif from "../Assets/Image/pic-chng.gif";
 import Sectwoteddyone from "../Assets/Image/sec-2-tedy-1.png";
 import Sectwoteddytwo from "../Assets/Image/sec-2-tedy-2.png";
@@ -43,7 +45,7 @@ const cards = [
 const Sec1 = () => {
   const SecOneCard = cards.map((e) => {
     return (
-      <div className="col-lg-4 col-md-6 col-sm-12 col-12  mb-4">
+      <Col lg={4} md={6} sm={12} className="mb-4">
         <div className="sec-1-card-1 ">
           <img className="" src={e.img} alt="#" />
           <p className="fs-30 fw-semibold ff-pop white py-sm-3 py-2 mb-0 ">
@@ -54,7 +56,7 @@ const Sec1 = () => {
             className="fs-16 fw-normal ff-pop gray mb-0  space-sm"
           ></p>
         </div>
-      </div>
+      </Col>
     );
   });
   return (
@@ -63,12 +65,12 @@ const Sec1 = () => {
         id="Minting"
         className="bg-color overflow-hidden position-relative mt_2"
       >
-        <div className="container ">
-          <div className="row d-flex align-items-center justify-content-center pb-lg-5 mb-5">
+        <Container>
+          <Row className="d-flex align-items-center justify-content-center pb-lg-5 mb-5">
             <div className="col-md-6 col-sm-12 col-12">
               <img className="mt-50 w-100" src={gif} alt="#" />
             </div>
-            <div className="col-md-6 col-sm-12 col-12 ps-lg-5 ps-sm-5 ps-sm-0">
+            <div md={6} sm={12} className="ps-lg-5 ps-sm-5 ps-sm-0">
               <div className="d-flex flex-column ps-lg-5 ps-sm-5 ps-md-0  justify-content-center">
                 <p className="fs-50 fw-semibold ff-pop white sec-1-head-1 pb-lg-5 pb-3 ps-lg-5 ps-5 ps-md-0 mb-0">
                   Mint Your Bat
@@ -148,9 +150,9 @@ const Sec1 = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row PT-5">{SecOneCard}</div>
-        </div>
+          </Row>
+          <Row className=" PT-5">{SecOneCard}</Row>
+        </Container>
         <span className="sec-1-sh-1 position-absolute"></span>
         <span className="sec-1-sh-2 position-absolute"></span>
       </div>
